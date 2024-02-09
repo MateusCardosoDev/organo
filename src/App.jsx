@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Banner from "./components/Banner/index.jsx";
 import Formulario from "./components/Formulario/index.jsx";
+import Time from "./components/Time/index.jsx";
 
 function App() {
   const [colaboradores, setColaboradores] = useState([]);
@@ -18,6 +19,9 @@ function App() {
           aoNovoColaboradorAdicionado(colaborador)
         }
       />
+      <Time nome="Programação"/>
+      <Time nome="Frontend"/>
+      <Time nome="Data Science"/>
     </div>
   );
 }
