@@ -21,14 +21,14 @@ const Formulario = (props) => {
   const [time, setTime] = useState("");
 
   const aoSalvar = (evento) => {
-    evento.preventDefault()
+    evento.preventDefault();
     props.aoColaboradorCadastrado({
       nome,
       cargo,
       imagem,
-      time
-    })
-  }
+      time,
+    });
+  };
 
   return (
     <section className="formulario">
