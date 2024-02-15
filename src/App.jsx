@@ -19,9 +19,9 @@ function App() {
           aoNovoColaboradorAdicionado(colaborador)
         }
       />
-      <Time nome="Programação"/>
-      <Time nome="Frontend"/>
-      <Time nome="Data Science"/>
+      <Time nome="Programação" />
+      <Time nome="Frontend" />
+      <Time nome="Data Science" />
     </div>
   );
 }
